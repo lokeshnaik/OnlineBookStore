@@ -1,0 +1,5 @@
+amazonProperties:
+    endpointUrl: https://s3.ap-south-1.amazonaws.com
+    accessKey: ${aws.access.key.id}
+    secretKey: ${aws.access.key.secret}
+    bucketName: ${aws.s3.audio.bucket}
